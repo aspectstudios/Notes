@@ -36,9 +36,11 @@ ${CUDA_NVCC_FLAGS};
 
 10. Overlay the source after making usb_cam with `source ./devel/setup.bash`
 
-11. Start usb_cam with `rosrun usb_cam usb_cam-test.launch` ?
+11. Edit `usb_cam-test.launch` with the required resolution (to improve speed).
 
-12. Run `rosrun roslaunch darknet_ros darknet_ros.launch`
+12. Start usb_cam with `rosrun usb_cam usb_cam-test.launch` or manually start the node `?`
+
+13. Run `rosrun roslaunch darknet_ros darknet_ros.launch`
 
 
 
